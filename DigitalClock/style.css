@@ -1,0 +1,33 @@
+body{
+    background: #131313;
+}
+
+/* it's class, it's not part of HTML
+    so you use '.'
+*/
+.clock {
+    position : absolute; /* it can be used to marginalise easily */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    /* display works on parent element, it take and shift it into a line*/
+    font-family: sans-serif;
+}
+
+.time{
+    background: #090909;
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.heading{
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+    /* modifying or manipulating text data to achieve specific formatting, normalization, or analysis objectives. */
+    text-align: center;
+}
