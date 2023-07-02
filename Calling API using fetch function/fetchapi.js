@@ -23,6 +23,7 @@ async function getData() {
         </ul>
        `
     })
+    
     document.querySelector('#result').innerHTML = out;
 
      
