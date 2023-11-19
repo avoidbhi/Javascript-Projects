@@ -1,11 +1,11 @@
-// Main task is to keep the time matches with real time, 
+// Main task is to keep the time matches with real time,
 // all the changes happen in seconds, hours, seconds
 
-/* 
-window.onload you can ensure that your JavaScript code 
-is executed only when the entire web page, including its 
-external resources, has finished loading, providing a 
-reliable way to interact with and 
+/*
+window.onload you can ensure that your JavaScript code
+is executed only when the entire web page, including its
+external resources, has finished loading, providing a
+reliable way to interact with and
 manipulate the page's elements.
 */
 window.onload = () => {
@@ -27,7 +27,7 @@ window.onload = () => {
             document.querySelector('#clock-minutes').innerText = minutes;
             document.querySelector('#clock-seconds').innerText = seconds;
 
-          
+
 
             setTimeout(buildClock, 100);
     }

@@ -2,7 +2,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
- 
+
 function addTask()
 {
     if(inputBox.value === '')
@@ -39,57 +39,7 @@ function saveData() {
 }
 
 function showTask() {
-    listContainer.innerHTML = localStorage.getItem("data");
+    listContainer.innerHTML+ = localStorage.getItem("data");
 }
 
 showTask();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
